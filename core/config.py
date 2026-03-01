@@ -7,6 +7,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 INDEX_DIR = PROJECT_ROOT / "data" / "indexes"
 UPLOADS_DIR = PROJECT_ROOT / "data" / "uploads"
 EXAMS_CACHE_DIR = UPLOADS_DIR / "exams"
+HANDOUTS_CACHE_DIR = UPLOADS_DIR / "handouts"
 
 # Chunking
 CHUNK_SIZE = 512
